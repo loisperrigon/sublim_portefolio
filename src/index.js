@@ -2,12 +2,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import Routes from './components/Routes';
+import Listes from './components/Listes';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Routes />
+    <Listes />
   </React.StrictMode>
 );
 
