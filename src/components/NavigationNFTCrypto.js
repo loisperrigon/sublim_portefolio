@@ -1,14 +1,15 @@
 import React from 'react'
+import "../scss/navigationNFTCrypto.scss";
 
 const NavigationNFTCrypto = () => (
     <div id="NavigationNFTCrypto">
-        <div class="All">
+        <div className="All">
             <p>All</p>
         </div>
-        <div class="All">
+        <div className="All">
             <p>Crypto</p>
         </div>
-        <div class="All">
+        <div className="All">
             <p>NFT</p>
         </div>
     </div>

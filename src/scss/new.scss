@@ -1,0 +1,19 @@
+#myNew {
+    .estimatedTendance {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .estimated {}
+
+    .tendance {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* Crée trois colonnes égales */
+        gap: 10px;
+
+    }
+
+
+}

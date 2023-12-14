@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Dashboard from './Dashboard';
 import Login from './Login';
 import Unauthorized from './Unauthorized';  // Correction ici
+import TopNav from './TopNav'
+import Footer from './Footer'
 
 class MyRouter extends Component {
     render() {
@@ -11,6 +14,7 @@ class MyRouter extends Component {
 
         return (
             <Router>
+                <TopNav />
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
 
@@ -23,6 +27,7 @@ class MyRouter extends Component {
                         <Route path="/unauthorized" element={<Unauthorized />} />
                     )}
                 </Routes>
+                <Footer />
             </Router>
         );
     }

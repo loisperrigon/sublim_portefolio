@@ -1,0 +1,16 @@
+@import 'style.scss';
+
+#graphique {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    img {
+        height: 300px;
+        width: 85%;
+        object-fit: cover
+    }
+
+}

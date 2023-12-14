@@ -1,0 +1,8 @@
+@charset "UTF-8";
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-left: 80px;
+  width: calc(100% - 80px);
+  /* Ajoutez la valeur de la marge à gauche que vous souhaitez */
+}

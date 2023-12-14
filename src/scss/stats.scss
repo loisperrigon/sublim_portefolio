@@ -1,0 +1,17 @@
+@import 'style.scss';
+
+#stats {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $backgroundModule ;
+    padding: $paddingModule;
+    margin: $paddingModule;
+    border-radius: 30px;
+    border: 4px solid $backgroundBorderColor;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}

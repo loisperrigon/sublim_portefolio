@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "../scss/balance.scss";
 const Balance = () => (
     <div id="balance">
         <div id="estimatedBalance">
-            <p>Estimated Balance </p>
-            <div><p class="montant">380000</p> <p class="devise">BTC</p></div>
+            <h2>Estimated Balance </h2>
+            <div className="montantDevise"><p className="montant">380000</p> <p className="devise">BTC</p></div>
         </div>
     </div>
 

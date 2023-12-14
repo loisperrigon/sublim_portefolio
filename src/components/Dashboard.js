@@ -1,18 +1,18 @@
 import React from 'react'
-import Profil from './Profil'
-import Balance from './Balance'
-import NavigationNFTCrypto from './NavigationNFTCrypto'
-import Graphique from './Graphique'
-import Item from './Item'
+import SideBarLeft from './SideBarLeft'
+import New from './New'
+import Cryptos from './Cryptos'
+
+import "../scss/dashboard.scss";
+
 
 
 const Dashboard = () => (
     <section id="dashboard">
-        <Profil />
-        <NavigationNFTCrypto />
-        <Balance />
-        <Graphique />
-        <Item />
+        <SideBarLeft />
+        <New />
+        <Cryptos />
+
     </section>
 
 )

@@ -1,0 +1,25 @@
+@import 'style.scss';
+
+#profil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $backgroundModule ;
+    padding: $paddingModule;
+    margin: $paddingModule;
+    border-radius: 30px;
+    border: 4px solid $backgroundBorderColor;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ajout d'une ombre légère */
+
+    img {
+        border-radius: 50%;
+        /* Utilisation de 50% pour obtenir un cercle parfait */
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 4px solid $backgroundBorderColor;
+        /* Ajout d'une bordure colorée */
+    }
+
+}

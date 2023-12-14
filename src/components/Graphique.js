@@ -1,20 +1,11 @@
 import React from 'react'
-
+import "../scss/graphique.scss";
+import profileImage from "../asset/image/imageProfil.jpg";  // Importez l'image
 
 const Graphique = () => (
-    <div id="NavigationNFTCrypto">
-        <div class="All">
-            <p>All</p>
-        </div>
-        <div class="All">
-            <p>Crypto</p>
-        </div>
-        <div class="All">
-            <p>NFT</p>
-        </div>
+    <div id="graphique">
+        <img src={profileImage} alt="Profile" /> {/* Utilisez l'image importée */}
     </div>
-
-
 )
 
 export default Graphique
