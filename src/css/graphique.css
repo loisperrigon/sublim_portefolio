@@ -1,26 +1,12 @@
-body {
-  background-color: #2B2A4C;
-}
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
-  color: #82A0BC;
-}
-body p {
-  color: #EEE2DE;
-}
-
 #graphique {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
 }
 #graphique img {
+  display: flex;
   height: 300px;
   width: 85%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: auto;
 }

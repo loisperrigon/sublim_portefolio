@@ -3,7 +3,7 @@ import React from 'react'
 import "../scss/new.scss";
 
 const New = () => (
-    < section id="myNew" >
+    < section className="categories" id="myNew" >
         <h2>Info general</h2>
         <div className="estimatedTendance">
             <div className="estimated" >

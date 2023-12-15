@@ -2,8 +2,8 @@ import React from 'react';
 import '../scss/crypto.scss';
 
 const Crypto = ({ name, quantite, value, pourcentageJour, pourcentageSemaine, pourcentageMois, pourcentageAnnee }) => (
-    <section className="cyptoInfo">
-        <h3>{name}</h3>
+    <section className="cryptoInfo">
+        <h4>{name}</h4>
         <p>{quantite}</p>
         <p>{value}</p>
         <p>{pourcentageJour}</p>

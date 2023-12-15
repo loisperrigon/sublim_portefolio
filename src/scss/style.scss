@@ -15,4 +15,15 @@ body {
     p {
         color: $backgroundFont;
     }
+
+    .categories {
+        background-color: #18283b;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        /* Ajustez les valeurs selon vos préférences */
+    }
+
 }

@@ -1,10 +1,9 @@
-.donneeColonne {
+.donneesColonne {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* Crée trois colonnes égales */
     gap: 10px;
 
-    h4 {
+    h3 {
         display: flex;
         align-items: center;
         justify-content: center;

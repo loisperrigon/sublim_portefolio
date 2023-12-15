@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #2B2A4C;
 }
@@ -11,4 +12,13 @@ body h6 {
 }
 body p {
   color: #EEE2DE;
+}
+body .categories {
+  background-color: #18283b;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Ajustez les valeurs selon vos préférences */
 }
